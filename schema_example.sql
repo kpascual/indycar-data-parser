@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS event (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    source_id INTEGER UNIQUE,
+    source_name TEXT,
+    year TEXT
+);
+
+CREATE TABLE IF NOT EXISTS event_session (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    event_id INTEGER NOT NULL,
+    source_id INTEGER UNIQUE,
+    source_name TEXT
+)
