@@ -1,0 +1,9 @@
+database: /path/indycar.db
+root: /path/indycar-data-parser/
+intermediate_root: /path/script_assets/csv/
+assets_root: /path/script_assets/
+pdf_root: /path/script_assets/session_pdf/
+extract_root: /path/script_assets/extracted_csv/
+transform_root: /path/script_assets/transformed_csv/
+error_root: /path/script_assets/error_csv/
+race_keys_url: https://www.indycar.com/api/results/SeasonDropDown?id=b856a4f1-e85c-4fac-8c36-fd58d962227a
